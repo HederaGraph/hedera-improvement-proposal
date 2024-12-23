@@ -1,124 +1,56 @@
----
-hip: <HIP number (assigned by the HIP editor), usually the PR number>
-title: <Brief title describing the purpose of the HIP. Ex: "Biometric Binding Codes">
-author: <Comma separated list of the authors' names and/or usernames, or names and emails. Ex: John Doe <@johnDoeGithub1778>, Jane Smith <jane@email.com>>
-working-group: <List of the technical and business stakeholders' names and/or usernames, or names and emails. Ex: John Doe <@johnDoeGithub1778>, Jane Smith <jane@email.com>>
-requested-by: <Name(s) and/or username(s), or name(s) and email(s) of the individual(s) or project(s) requesting the HIP. Ex: Acme Corp <request@acmecorp.com>>
-type: <"Standards Track" | "Informational" | "Process">
-category: <"Core" | "Service" | "Mirror" | "Application">
-needs-council-approval: <"Yes" | "No">
-status: <"Draft" | "Review" | "Last Call" | "Active" | "Inactive" | "Deferred" | "Rejected" | "Withdrawn" | "Accepted" | "Final" | "Replaced">
-created: <Date the HIP was created on, in YYYY-MM-DD format>
-discussions-to: <A URL pointing to the official discussion thread. Ex: https://github.com/hashgraph/hedera-improvement-proposal/discussions/000>
-updated: <Latest date HIP was updated, in YYYY-MM-DD format.>
-requires: <HIP number(s) this HIP depends on, if applicable. Ex: 101, 102>
-replaces: <HIP number(s) this HIP replaces, if applicable. Ex: 99>
-superseded-by: <HIP number(s) that supersede this HIP, if applicable. Ex: 104>
----
+PLANNING TO USE HEDERA ID TOKEN RESOURCES TO MAKE HEDERA THE CENTER OF ALL DLT
 
-## Abstract
-Please provide a short (~200 word) description of the issue being addressed.
+I have an idea about planning to use digital resources to plan to use the length of the number string in hedera ID token
 
-This abstract should be copied to the description for your pull request.
+Hope Devs will read and pay attention to this proposal, if this proposal is really useful, please help me post it on HIP
 
-## Motivation
-The motivation is critical for HIPs that want to change the Hedera codebase or
-ecosystem. It should clearly explain why the existing specification is
-inadequate to address the problem that the HIP solves. HIP submissions without
-sufficient motivation may be rejected outright.
+Initiative on how to exploit and use hedera token resources to make hedera the most decentralized data platform and the center of all decentralized data ecosystems
+So what I want to propose here is to plan to issue ID tokens from the beginning, to understand this issue clearly, I will give specific guidance through the following practical areas and applicationsÖ
 
-## Rationale
-The rationale fleshes out the specification by describing why particular design
-decisions were made. It should describe alternate designs that were considered
-and related work, e.g. how the feature is supported in other languages.
+BY PROVIDING PROOF PROOF AND SPECIFIC CASE BELOW
+WE WILL SEE THE POWER OF HEDERA TOKEN SHOWN IN NUMERICAL FORM TO EXPLOIT THAT IN A WEIGHTED WAY AND IMPROVE THE POWER OF HEDERA FOR THE USERS OF THE ATTRACTIVE NETWORK
 
-The rationale should provide evidence of consensus within the community and
-discuss important objections or concerns raised during the discussion.
+AND THIS PROPOSAL WITH THE GOAL OF FORCING RESOURCES PLANNING ACCORDING TO THE LENGTH OF THE CHARACTER OF THE DIGITS IN THE STRUCTURE OF HEDERA TOKEN IDS
+WILL HELP HEDERA COMING SOON TO THE CENTER OF NETWORKS
 
-## User stories
-Provide a list of "user stories" to express how this feature, functionality,
-improvement, or tool will be used by the end user. Template for user story:
-“As (user persona), I want (to perform this action) so that (I can accomplish
-this goal).”
+CURRENTLY, NFT ISSUES OR TOPIC MESSAGES... ARE ALL ASSIGNED DATA IN ORDER OF THE CURRENT TOKEN ID, THIS IS A WASTE OF DIGITAL RESOURCES, BECAUSE THERE ARE MILLIONS OF NFT PRODUCTS EVERY DAY, BILLIONS OF TOPIC IDS EVERY DAY AND MOST OF THE
 
-## Specification
-The technical specification should describe the syntax and semantics of any new
-features. The specification should be detailed enough to allow competing,
-interoperable implementations for at least the current Hedera ecosystem.
+- NFT creations are in the form of single-use items: movie tickets, mass-produced products, time-limited coupons....
+In the future, there will be billions of NFTs created every day like that, and it can also be deleted immediately after that
 
-Some specifications are of exceptional (thousands of lines) size. If your HIP
-requires detail of this level, add the large segments of specification as
-files of appropriate type (e.g. Solidity code, Protocol Buffer definition,
-Java code, etc...) in the `assets` folder, and add descriptive links
-to each such file here.
-### Example Specification
-<blockquote>
+Meanwhile, at the present time, such NFTs are being mined in the order of token IDs equivalent to the current wallet or token ID,
+which is a waste of resources because after the expiration date or after the product is used
+it will be permanently deleted
+For that reason, assign numeric values ​​to these NFTs with a character count of 15 or more
+and prioritize numeric strings with a character count of <15 characters for wallet accounts, user accounts or identity accounts
+domain names, users, user accounts, securities accounts, ID cards, licenses...
 
-Add a new `TokenAirdrop` transaction to `HederaFunctionality`. 
-```protobuf
-enum HederaFunctionality {
-//  ...
-    /**
-     * Airdrops one or more tokens to one or more accounts.
-     */
-    TokenAirdrop = 94;
-}
-```
+REASONS TO CONSIDER MINING OF HEDERAR TOKEN ID RESOURCES + SPECIFICALLY, THE DIRECTION SHOULD BE SPECIFIED BY CHARACTER LENGTH FOR EACH TYPE
+EXAMPLE FOR NFT OR TOPIC MESSENGER + WILL BE DEFAULTED TO TOKEN TYPE WITH LENGTH OF 15 CHARACTERS OR MORE, PRIORITY IS GIVEN TO PERSONAL WALLETS, IDENTITIES, USER ACCOUNTS WITH
+TOKEN ID LONGER LONGER LESS THAN 15 CHARACTERS
 
-Define a new `TokenAirdrop` transaction body.  This transaction distributes
-tokens from the balance of one or more sending account(s) to the balance of
-one or more recipient accounts. Accounts MAY receive the tokens in one of
-four ways. The full definition, for clarity, is detailed
-in [an attached file](assets/hip-0000-template/sample.proto).
+1- ADVANTAGES OF HEDERA'S TOKEN FORMAT
 
-</blockquote>
+- Tokens are displayed in digital form. This is a prominent advantage that no other platform has. It excels in the following points.
 
-Some HIP specifications are not well served by this mechanism.  In these cases
-the HIP MAY initially specify a public github commit or PR, and the HIP
-administrator may work with the authors to define an alternative method to
-include an appropriate snapshot of the specification content on
-a case-by-case basis.
++ Financially.
+Hedera tokens are like bank accounts and users can easily transfer money to each other by
 
-## Backwards Compatibility
-All HIPs that introduce backward incompatibilities must include a section
-describing these incompatibilities and their severity. The HIP must explain how
-the author proposes to deal with these incompatibilities. HIP submissions
-without a sufficient backward compatibility treatise may be rejected outright.
+providing each other with account numbers, which is very close to any real business platform
 
-## Security Implications
-If there are security concerns in relation to the HIP, those concerns should be
-explicitly addressed to make sure reviewers of the HIP are aware of them.
+While other platforms and ecosystems have to transfer money to each other using wallet codes, the rules of wallet codes are not easy to remember
 
-## How to Teach This
-For a HIP that adds new functionality or changes interface behaviors, it is
-helpful to include a section on how to teach users, new and experienced, how to
-apply the HIP to their work.
+Moreover, later, hedera is the center of networks
 
-## Reference Implementation
-The reference implementation must be complete before any HIP is given the status
-of “Final”. The final implementation must include test code and documentation.
+users or business platforms, they are willing to transfer bitcoin to each other or transfer any tokens to each other
 
-## Rejected Ideas
-Throughout the discussion of a HIP, various ideas will be proposed which are not
-accepted. Those rejected ideas should be recorded along with the reasoning as to
-why they were rejected. This both helps record the thought process behind the
-final version of the HIP as well as preventing people from bringing up the same
-rejected idea again in subsequent discussions.
+they are also willing to pay a very small fee to use hedera wallet codes, which will be very convenient and easy
 
-In a way, this section can be thought of as a breakout section of the Rationale
-section that focuses specifically on why certain ideas were not ultimately
-pursued.
+instead of transferring money internally between networks with messy wallet codes and no rules to remember
 
-## Open Issues
-While a HIP is in draft, ideas can come up which warrant further discussion.
-Those ideas should be recorded so people know that they are being thought about
-but do not have a concrete resolution. This helps make sure all issues required
-for the HIP to be ready for consideration are complete and reduces people
-duplicating prior discussions.
++ In terms of identity management
 
-## References
-A collections of URLs used as references through the HIP.
+- Digital identities such as national ID cards in each country, degrees, graduation certificates or most identification issues are numbered in order and require a long string of long and short characters
 
-## Copyright/license
-This document is licensed under the Apache License, Version 2.0 --
-see [LICENSE](../LICENSE) or (https://www.apache.org/licenses/LICENSE-2.0)
+CONCLUSION IN CONCLUSION, I RECOMMEND HEDERA DEVELOPERS TO CONSIDER AND LISTEN TO THIS PROPOSAL
+Recognize the power of the digital hedera token and harness it in a way that applies to real-world applications
